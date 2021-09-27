@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Sean's Portfolio | Welcome</title>
+		<meta name='viewport' content='width=device-width'/>
+		<link rel="stylesheet" href="css/style.css"/>
+		<!-- Fonts Here -->
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+		<!-- Fav icon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/fav-icon/apple-touch-icon.png"/>
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/fav-icon/favicon-32x32.png"/>
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/fav-icon/favicon-16x16.png"/>
+		<link rel="manifest" href="/images/fav-icon/site.webmanifest"/>
+	</head>
+	<body>
+		<!-- Main Menu -->
+		<nav id="main-menu">
+			<div class="container flex lg-space-btwn sm-column">
+				<div class="main-logo">
+					<a id="main-logo" href="index.html#intro">
+						<h3>Se<span>an</span></h3>
+					</a>
+				</div>
+				<div id="nav-elements-wrapper">
+					<ul class="flex lg-space-btwn">
+						<li>
+							<a href="#about-me-section">About Me</a>
+						</li>
+						<li>
+							<a href="#projects-section">Projects</a>
+						</li>
+						<!-- <li>
+							<a href="#reflections-section">Reflections</a>
+						</li> -->
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Intro Section -->
+		<section id="intro" class="flex bg-img parallax" style="background-image: url(images/bg.jpg); position: relative;">
+			<div class="overlay flex f-col center-x center-y " style="position: absolute;">
+				<h3>Hi, I am</h3>
+				<h1 id="main-hero-h1">Sean Marshall 
+					<span>.</span>
+				</h1>
+				<h3>I am a Web Developer</h3>
+				<a href="#projects-section" class="margin-2 btn">Check Out My Work</a>
+			</div>
+		</section>
+		<!-- About Me Section -->
+		<section id="about-me-section" class="pg-section">
+			<div class="container">
+				<h1 class="center-txt">About Me</h1>
+				<div class="pad-bottom-2 flex lg-space-btwn sm-column">
+                    <!-- Image -->
+                    <div class="img-card bg-img sm-parallax" style="background-image: url(images/me.jpg); 
+                    background-position: 50% 0;"></div>
+                    <!-- Text -->
+                    <aside class="aside-text">
+                        <p class="pad-bottom-1">I am a young and driven I.T student seeking real-world experience as a Web Developer/ Software Engineer. I am very creative and offer strong visual design and interpersonal skills. I am also knowledgeable in graphic design, UX and important programming concepts through my experiences with JavaScript, Java and Haskell. 
+                        </p>
+                        <p>
+                            <span>Name:</span> Sean Marshall
+                        </p>
+                        <p>
+                            <span>Program:</span> Bachelor of Information Technology
+                        </p>
+                        <p>
+                            <span>Location:</span> North Brisbane, Australia
+                        </p>
+                        <p>
+                            <span>Zipcode:</span> 4500
+                        </p>
+                        <p>
+                            <span>Email:</span> smarshallean@gmail.com
+                        </p>
+                        <p class="pad-bottom-2">
+                            <span>Phone:</span> 0451116039
+                        </p>
+                        <a href="/resources/Resume 2021.pdf" class="btn" download="Resume">Download Resume</a>
+                    </aside>
+                </div>
+			</div>
+		</section>
+
+
+		
+		<!-- My Skills Section -->
+		<section id="skills-section" class="pg-section bg-color-2">
+			<div class="container">
+				<h1 class="center-txt">My Skills</h1>
+				<div id="skills-list">
+					<div class="progressbar-wrapper flex">
+						<div class="progressbar-label">
+							<p>HTML/CSS</p>
+						</div>
+						<div class="progressbar" style="width: calc(80% - 160px);">
+							<p>80%</p>
+						</div>
+					</div>
+					<div class="progressbar-wrapper flex">
+						<div class="progressbar-label">
+							<p>Javascript</p>
+						</div>
+						<div class="progressbar" style="width: calc(70% - 160px);">
+							<p>70%</p>
+						</div>
+					</div>
+					<div class="progressbar-wrapper flex">
+						<div class="progressbar-label">
+							<p>Python</p>
+						</div>
+						<div class="progressbar" style="width: calc(70% - 160px);">
+							<p>70%</p>
+						</div>
+					</div>
+					<div class="progressbar-wrapper flex">
+						<div class="progressbar-label">
+							<p>Java</p>
+						</div>
+						<div class="progressbar" style="width: calc(75% - 160px);">
+							<p>75%</p>
+						</div>
+					</div>
+					<div class="progressbar-wrapper flex">
+						<div class="progressbar-label">
+							<p>SQL</p>
+						</div>
+						<div class="progressbar" style="width: calc(60% - 160px);">
+							<p>60%</p>
+						</div>
+					</div>
+					<div class="progressbar-wrapper flex">
+						<div class="progressbar-label">
+							<p>Photoshop</p>
+						</div>
+						<div class="progressbar" style="width: calc(70% - 160px);">
+							<p>70%</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Projects Section Section -->
+		<section id="projects-section" class="pg-section">
+			<div class="container">
+				<h1 class="center-txt">Projects Spotlight</h1>
+				<div>
+					<!-- Card Row 1 -->
+					<div class="flex lg-space-btwn sm-column card-row-pad">
+						<!-- Card 1 -->
+						<div class="landscape-card box-shadow bg-img"
+                        style="background-image: url(/images/police-car.jpg);">
+							<div class="card-action">
+								<a href="#show-me-the-crime-section">
+									<p>Show Me The Crime</p>
+								</a>
+							</div>
+						</div>
+						<!-- Card 2 -->
+						<div class="landscape-card box-shadow bg-img"
+                        style="background-image: url(/images/martian-splendour.jpg);">
+							<div class="card-action">
+								<a href="#martian-splendour-section">
+									<p>Martian Splendour</p>
+								</a>
+							</div>
+						</div>
+						<!-- Card 3 -->
+						<div class="landscape-card box-shadow bg-img" style="background-image: url(/images/phone.jpg);">
+							<div class="card-action">
+								<a href="#techwizard-section">
+									<p>TechWizard</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Card Row 2 -->
+                
+					<div class="flex lg-space-btwn sm-column card-row-pad">
+						<!-- Card 1 -->
+						<div class="landscape-card box-shadow bg-img" style="background-image: url(/images/bpr.jpg);">
+							<div class="card-action">
+								<a href="/coming-soon.html">
+									<p>Brisbane Pet Rescue (W.I.P)</p>
+								</a>
+							</div>
+						</div>
+						<!-- Card 2 -->
+						<div class="landscape-card box-shadow bg-img"
+						style="background-image: url(/images/ragnarok-racer.png);">
+							<div class="card-action">
+								<a href="/coming-soon.html">
+									<p>Ragnarok Racer (W.I.P)</p>
+								</a>
+							</div>
+						</div>
+						<!-- Card 3 -->
+						<div class="landscape-card box-shadow v-hidden filler-card"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		 
+		<!-- PROJECTS content -->
+
+		<!-- Show Me the Crime -->
+	
+		<section id="show-me-the-crime-section" class="pg-section bg-color-2">
+			<div class="container"> 
+				<h1 class="center-txt pad-bottom-2">Project - Show Me The Crime</h1>
+				<div class="img-margin-bottom">
+					<img src="/images/projects/SMTC/home-page.png" alt="Image of the Home page" class="width-percent-100 img-border">
+				</div>
+
+				<div class="img-margin-bottom">
+					<img src="/images/projects/SMTC/home-page-2.png" alt="Image showing the bottom of the Home page" class="width-percent-100 img-border">
+				</div>
+
+				
+				<div class="img-margin-bottom">
+					<img src="/images/projects/SMTC/filter-page.png" alt="Image of the Filter page" class="width-percent-100 img-border">
+				</div>
+				
+			</div>
+		</section>
+	
+
+		<!-- Martian Splendour -->
+		<div>
+			<section id="martian-splendour-section" class="pg-section">
+				<div class="container"> 
+					<h1 class="center-txt pad-bottom-2">Project - Martian Splendour</h1>
+					<div class="img-margin-bottom">
+						<img src="/images/projects/Martian Splendour/home-hero.png" alt="Image of the Home page" class="width-percent-100 img-border">
+					</div>
+
+					<div class="img-margin-bottom">
+						<img src="/images/projects/Martian Splendour/about.png" alt="Image of the About page" class="width-percent-100 img-border">
+					</div>
+
+					
+					<div class="img-margin-bottom">
+						<img src="/images/projects/Martian Splendour/accomodation.png" alt="Image of the Accomodation page" class="width-percent-100 img-border">
+					</div>
+					
+				</div>
+			</section>
+		</div>
+
+		<!-- TechWizard -->
+
+		<section id="techwizard-section" class="pg-section bg-color-2">
+			<div class="container"> 
+				<h1 class="center-txt pad-bottom-2">Project - TechWizard</h1>
+				<div class="img-margin-bottom">
+					<img src="/images/projects/TechWizard/home-hero.png" alt="Image of the Home page" class="width-percent-100 img-border">
+				</div>
+
+				<div class="img-margin-bottom">
+					<img src="/images/projects/TechWizard/report.png" alt="Image showcasing an embedded YouTube video on the Report page" class="width-percent-100 img-border">
+				</div>
+
+				
+				<div class="img-margin-bottom">
+					<img src="/images/projects/TechWizard/references.png" alt="Image of References page" class="width-percent-100 img-border">
+				</div>
+				
+			</div>
+		</section>
+
+		
+		<!-- Footer -->
+		<footer id="page-footer" class="pad-top-2 pad-bottom-2">
+			<div class="container">
+				<div class="main-logo">
+					<h3 class="pad-bottom-2">Se<span>an</span>
+					</h3>
+				</div>
+                <!-- Footer menu -->
+                <div class="flex lg-space-btwn sm-column">
+                    <ul>
+                        <li class="f-title"><a href="index.html#about-me-section">About Me</a></li>
+                    </ul>
+
+                    <ul>
+                        <li class="f-title"><a href="index.html#reflections-section">Reflections</a></li>
+                        <li><a href="index.html#design-exploration-section">Design Exploration</a></li>
+                        <li><a href="index.html#major-project-section">Major Project: Parts A, B & C</a></li>
+                        <li><a href="index.html#participating-and-journaling-section">Participating & Journaling</a></li>
+						<li><a href="index.html#portfolio-section">Portfolio</a></li>
+						<li><a href="index.html#course-reflection-section">Course Reflection</a></li>        
+                    </ul>
+
+                    <ul>
+                        <li class="f-title"><a href="index.html#projects-section">Projects Spotlight</a></li>
+                        <li><a href="index.html#show-me-the-crime-section">Show Me The Crime</a></li>
+                        <li><a href="index.html#martian-splendour-section">Martian Splendour</a></li>
+                        <li><a href="index.html#techwizard-section">TechWizard</a></li>
+                    </ul>
+                        
+                    <ul>
+                        <li class="f-title"><a href="#skills-section">My Skills</a></li>
+                    </ul>
+
+                </div>
+				<p class="pad-top-2">©2021 Sean's Portfolio. A site by Sean Marshall</p>
+			</div>
+		</footer>
+	</body>
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/script.js"></script>
+</html>
