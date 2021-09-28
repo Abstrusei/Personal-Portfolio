@@ -1,5 +1,11 @@
 $(document).ready(function(){
 
+    // Initialise AOS Library
+    AOS.init({
+        offset: 400,
+        duration: 1000,  
+    });
+
     //"JavaScript is Enabled" Body Class
     $("body").addClass("js");
 
@@ -32,5 +38,12 @@ $(document).ready(function(){
             navbarLogo.innerHTML = defaultNavbarLogo;
         }
     }
+
+    // let fLeftElments = document.getElementsByClassName("f-left");
+    // let fRightElements = document.getElementsByClassName("f-right");
+
+    // fLeftElments.array.forEach(element => {
+    //     element.setA
+    // });
 
 });
