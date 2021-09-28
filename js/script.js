@@ -25,10 +25,10 @@ $(document).ready(function(){
     let defaultNavbarLogo = navbarLogo.innerHTML;
     function changeNavbarLogo() {
         if (window.pageYOffset > 600) {
-            console.log("navbar logo should have changed");
+            // console.log("navbar logo should have changed");
             navbarLogo.innerHTML = "SCROLL TO TOP";
         }  else {
-            console.log("navbar logo should be the same");
+            // console.log("navbar logo should be the same");
             navbarLogo.innerHTML = defaultNavbarLogo;
         }
     }
