@@ -6,6 +6,14 @@ $(document).ready(function(){
         duration: 1000,  
     });
 
+    AOS.init({
+        disable: 'mobile'
+    });
+
+    AOS.init({
+        disable: 'tablet'
+    });
+
     //"JavaScript is Enabled" Body Class
     $("body").addClass("js");
 

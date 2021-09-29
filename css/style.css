@@ -101,6 +101,7 @@ li {
 .btn:hover {
     color: #D90479;
     border: 2px solid #D90479;
+    transition: 0.5s;
 }
 
 .d-none {
@@ -292,6 +293,7 @@ li {
 
 #main-menu li a:hover {
     color: #D90479;
+    transition: 0.5s;
 }
 
 .main-logo span {
@@ -334,6 +336,7 @@ li {
 #intro .btn:hover { 
     color: #D90479;
     border: 2px solid #D90479;
+    transition: 0.5s;
 }
 
 .overlay {
@@ -425,6 +428,7 @@ li {
 
 .card-action a p:hover {
     background-color: #D90479;
+    transition: 0.5s;
 }
 
 .box-shadow {
@@ -497,7 +501,21 @@ footer h3 {
 
 footer a:hover {
     color: #D90479;
+    transition: 0.5s;
 }
+
+/* Smaller size devices (tablets, 600px and down) */
+
+@media (min-width: 768px) and (max-width: 1281px) {
+    .aside-text {
+        width: 150%;
+    }
+    
+    #nav-elements-wrapper {
+        width: 200px;
+    }
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 
