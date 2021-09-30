@@ -291,9 +291,13 @@ li {
     font-weight: bold;
 }
 
-#main-menu li a:hover {
+#main-menu li a:hover, .contact-link:hover{
     color: #D90479;
     transition: 0.5s;
+}
+
+.contact-link {
+    font-weight: bold;
 }
 
 .main-logo span {
