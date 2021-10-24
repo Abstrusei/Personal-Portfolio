@@ -391,6 +391,18 @@ li {
     padding: 0 20px 0 20px;
 }
 
+/* PROJECTS */
+a .project-title:hover {
+    color: #D90479;
+}
+
+h2.project-link-warning {
+    font-size: 16px;
+    color: darkred;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 /* Cards */
 /* .wrapper {
     min-height: 250px;
@@ -565,8 +577,12 @@ footer a:hover {
         margin-bottom: 50px;
     }
 
-    .sm-parallax {
+    /* .sm-parallax {
         background-attachment: fixed;
+    } */
+
+    .parallax {
+        background-attachment: initial;
     }
 
     .width-percent-75, .width-percent-50 {
