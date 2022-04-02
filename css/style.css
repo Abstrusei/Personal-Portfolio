@@ -49,6 +49,11 @@ h3 {
     color: grey;
 }
 
+.p-container {
+    /* width: 80%; */
+    margin: 0 auto;
+}
+
 .container {
     width: 85%;
     margin: 0 auto;
@@ -57,6 +62,11 @@ h3 {
 
 .pg-section {
     min-height: 100vh;
+    padding: 70px 0 70px 0;
+}
+
+.pg-section-small {
+    min-height: 70vh;
     padding: 70px 0 70px 0;
 }
 
@@ -357,7 +367,7 @@ li {
 }
 
 /* ABOUT ME SECTION */
-#about-me-section span {
+#about-me-section span, .pg-section span, .pg-section-small span {
     color: rgb(112, 111, 111);
     font-weight: bold;
 }
@@ -367,6 +377,13 @@ li {
 }
 
 /* MY SKILLS SECTION */ 
+.skills {
+    flex-wrap: wrap;
+}
+.skill-icon {
+    height: 80px;
+    width: 80px;
+}
 .progressbar-wrapper {
     height: 30px;
     background: white;
